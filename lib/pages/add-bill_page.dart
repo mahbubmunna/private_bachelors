@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:intl/intl.dart';
-import 'package:privatebachelors/pages/add_bill_sub/food-bill_page.dart';
+import 'package:privatebachelors/pages/add_bill_sub/dining-bill_page.dart';
 import 'package:privatebachelors/pages/add_bill_sub/others-bill_page.dart';
 
 class AddBillPage extends StatefulWidget {
@@ -54,7 +54,7 @@ class _AddBillPageState extends State<AddBillPage> {
         ),
         body: TabBarView(
           children: <Widget>[
-            FoodBillPage(),
+            DiningBillPage(),
             OthersBillPage(),
           ],
         ),

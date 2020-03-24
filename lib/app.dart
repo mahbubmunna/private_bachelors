@@ -32,7 +32,7 @@ ThemeData _buildPrivateBachelorsTheme() {
     primaryTextTheme: _buildTextTheme(base.primaryTextTheme),
     accentTextTheme: _buildTextTheme(base.accentTextTheme),
     inputDecorationTheme: InputDecorationTheme(
-      border: OutlineInputBorder()
+     // border: OutlineInputBorder()
     )
   );
 }
